@@ -115,7 +115,7 @@
     - CatBoost, LightGBM 등 다양한 Tree기반 모델 사용 후 여러가지 앙상블을 시도해 본 뒤 성능이 가장 높은 모델 채택
     - target이 불균형한 분포를 보이므로 파라미터를 통한 불균형 처리를 진행
     - Parameter Tuning
-        - 베이지안 최적화를 통해 하이퍼파라미터 튜닝 (Bayesian Optimization) [https://wooono.tistory.com/102](https://wooono.tistory.com/102)
+        - 베이지안 최적화를 통해 하이퍼파라미터 튜닝 (Bayesian Optimization)
     - 불균형 데이터이기 때문에 threshold 변경을 통해 조금 더 보수적으로 대출 신청 여부 판단
 - 해석
     - SHAP Value를 통해 예측에 중요하게 영향을 미치는 변수 확인
